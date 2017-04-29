@@ -4233,11 +4233,11 @@
                             }
                         }
                     },
-                    credits: {
-                        href: k,
-                        text: "FusionCharts XT Trial",
-                        enabled: f
-                    },
+                    // credits: {
+                    //     href: k,
+                    //     text: "FusionCharts XT Trial",
+                    //     enabled: f
+                    // },
                     legend: {
                         enabled: !1
                     },
@@ -5778,13 +5778,13 @@
                 var e = m(10, c);
                 return p(a * e) / e
             },
-            hasTouch: F,
-            CREDIT_HREF: k,
-            CREDIT_STRING: "FusionCharts XT Trial",
-            getSentenceCase: function(a) {
-                a = a || "";
-                return a.charAt(0).toUpperCase() + a.substr(1)
-            },
+            // hasTouch: F,
+            // CREDIT_HREF: k,
+            // CREDIT_STRING: "FusionCharts XT Trial",
+            // getSentenceCase: function(a) {
+            //     a = a || "";
+            //     return a.charAt(0).toUpperCase() + a.substr(1)
+            // },
             getCrispValues: function(a, c, e) {
                 var d = e % 2 / 2;
                 e = p(a + d) - d;

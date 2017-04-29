@@ -1,6 +1,6 @@
 var express = require("express");
 var mongodb = require("mongodb");
-var dbHost = "mongodb://localhost:27017/fusion_demo";
+var dbHost = "mongodb://localhost:27017/bangalore";
 var dbObject;
 
 var MongoClient = mongodb.MongoClient;
